@@ -36,15 +36,16 @@
 }
 
 .Weather canvas {
-  height: 42px;
+  height: 40px;
+  width: 40px;
   display: inline-block;
   margin-right: 10px;
 }
 
 .Weather .temperature {
   font-weight: bold;
-  font-size: 42px;
-  line-height: 42px;
+  font-size: 40px;
+  line-height: 40px;
   font-weight: 400;
 }
 
