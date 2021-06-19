@@ -35,8 +35,8 @@
   background-color: #d76a63;
 }
 
-.Weather img {
-  height: 50px;
+.Weather canvas {
+  height: 42px;
   display: inline-block;
   margin-right: 10px;
 }
