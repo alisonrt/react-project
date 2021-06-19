@@ -1,5 +1,5 @@
 import React from 'react';
-import prettyDate from './prettyDate';
+import prettyDate from './prettyDate.js';
 
 export default function WeatherInfo(props) {
     return (
