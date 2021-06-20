@@ -1,6 +1,6 @@
 import React from 'react';
 import WeatherIcon from './WeatherIcon';
-import prettyDate from './prettyDate';
+import PrettyDate from './PrettyDate';
 import WeatherTemp from './WeatherTemp';
 
 export default function WeatherInfo(props) {
@@ -8,7 +8,9 @@ export default function WeatherInfo(props) {
         <div className="WeatherInfo">
             <h1>{props.data.city}</h1>
                 <ul>
-                    <li><prettyDate date={props.data.date} /></li>
+                    <li>
+                        <PrettyDate date={props.data.date} />
+                    </li>
                     <li className="text-capitalize">{props.data.description}</li>
                 </ul>
                 <div className="row mt-3">
