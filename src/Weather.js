@@ -19,8 +19,6 @@ export default function Weather (props) {
             wind: response.data.wind.speed,
             city: response.data.name,
             date: new Date(response.data.dt * 1000),
-            sunrise: response.data.sys.sunrise,
-            sunset: response.data.sys.sunset
         });
     }
 
